@@ -6,3 +6,16 @@ public class Person{
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
 }
+	public void setFirstName(String firstName) throws IllegalArgumentException {
+		if (firstName.isEmpty())
+			throw new IllegalArgumentException("cant pass empty first name")'
+			
+		this.firstName = firstName;
+	}
+	
+	public void setLastName(String LastName) throws IllegalArgumentException {
+                if (lastName.isEmpty())
+                        throw new IllegalArgumentException("cant pass empty last name")'
+
+                this.lastName = lastName;
+}
